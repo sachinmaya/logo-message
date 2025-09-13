@@ -1,0 +1,30 @@
+{
+  "name": "firstpractice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "/lib/index.js",
+  "type": "index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm install build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sachinmaya/logo-message.git"
+  },
+  "keywords": [
+    "Test npm creation"
+  ],
+  "author": "sachin bk <sachinfb2018@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sachinmaya/logo-message/issues"
+  },
+  "homepage": "https://github.com/sachinmaya/logo-message#readme",
+  "devDependencies": {
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "build": "^0.1.4"
+  }
+}
