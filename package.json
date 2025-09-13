@@ -2,8 +2,8 @@
   "name": "firstpractice",
   "version": "1.0.0",
   "description": "",
-  "main": "/lib/index.js",
-  "type": "index.d.ts",
+  "main": "lib/index.js",
+  "type": "lib/index.d.ts",
   "scripts": {
     "build": "tsc",
     "prepare": "npm install build"
@@ -26,5 +26,8 @@
   },
   "dependencies": {
     "build": "^0.1.4"
-  }
+  },
+  "files": [
+    "lib/**/*"
+  ]
 }
